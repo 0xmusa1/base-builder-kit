@@ -53,3 +53,25 @@ npx hardhat compile
 ```
 
 ---
+
+## Deploy
+
+```bash
+npx hardhat run scripts/deploy.js --network base
+```
+
+---
+
+## Verify
+
+```bash
+npx hardhat run scripts/verify.js --network base
+```
+
+---
+
+## Dokümantasyon
+
+- `docs/deployment-guide.md`
+- `docs/base-network.md`
+- `docs/troubleshooting.md`
